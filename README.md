@@ -1,2 +1,3 @@
 # secretsInPython
-This repository is about some useful tricks in python.
+
+This repository focuses on handy Python tricks. Happy coding!

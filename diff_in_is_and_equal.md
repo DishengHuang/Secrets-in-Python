@@ -14,7 +14,11 @@ y = [1, 2, 3]
 print(x == y)
 ```
 
-#### Example 2
+### is (Identity Operator)
+
+Is operator checks whether two variables refer to the same object in memory.
+
+#### Example 1
 
 ```python
 x = [1, 2, 3]
@@ -24,11 +28,7 @@ y = [1, 2, 3]
 print(x is y)
 ```
 
-### is (Identity Operator)
-
-Is operator checks whether two variables refer to the same object in memory.
-
-#### Example 3
+#### Example 2
 
 ```python
 x = [1, 2, 3]

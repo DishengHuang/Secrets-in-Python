@@ -46,3 +46,29 @@ even_numbers_lambda = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers_regular)  # Output: [2, 4, 6, 8]
 print(even_numbers_lambda)   # Output: [2, 4, 6, 8]
 ```
+
+# Some examples about using the lambda?
+
+##### Example 1
+
+Sort the list by the second item of the elements.
+
+```python
+fruits = [(1, "banana"), (2, "apple"), (4, "cherry"), (3, "berry")]
+
+sorted_fruits = sorted(fruits, key = lambda x:x[1])
+
+print(sorted_fruits)
+```
+
+##### Example 2
+
+multiply 2 in the list.
+
+```python
+fruits = [(1, "banana"), (2, "apple"), (4, "cherry"), (3, "berry")]
+
+double_fruits = map(lambda x:(x[0]*2, x[1]), fruits)
+
+print(double_fruits)
+```

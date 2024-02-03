@@ -75,7 +75,7 @@ print(double_fruits)
 
 # Some drawbrack about using lambda
 
-The following example shows three primary drawbacks of using lambda functions:
+The following example shows three primary drawbacks of using lambda function:
 
 1. Single-Line Limitation:
    The lambda function restricts you to expressing your logic within a single line of code.
@@ -95,5 +95,5 @@ def y_compare_x(x, y):
     if x > y:
         return "smaller"
 
-lambda x, y: "greater" if x < y else "equal" if x == y else "smaller" if x > y
+lambda x, y: "greater" if x < y else "equal" if x == y else "smaller" if x > y else None
 ```

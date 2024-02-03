@@ -75,7 +75,7 @@ print(double_fruits)
 
 # Some drawbrack about using lambda
 
-In the following example, three primary drawbacks of using lambda functions become evident:
+The following example shows three primary drawbacks of using lambda functions:
 
 1. Single-Line Limitation:
    The lambda function restricts you to expressing your logic within a single line of code.

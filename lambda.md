@@ -47,7 +47,7 @@ print(even_numbers_regular)  # Output: [2, 4, 6, 8]
 print(even_numbers_lambda)   # Output: [2, 4, 6, 8]
 ```
 
-# Some examples about using the lambda?
+# More examples about using the lambda?
 
 ##### Example 1
 
@@ -71,4 +71,29 @@ fruits = [(1, "banana"), (2, "apple"), (4, "cherry"), (3, "berry")]
 double_fruits = map(lambda x:(x[0]*2, x[1]), fruits)
 
 print(double_fruits)
+```
+
+# Some drawbrack about using lambda
+
+In the following example, three primary drawbacks of using lambda functions become evident:
+
+1. Single-Line Limitation:
+   The lambda function restricts you to expressing your logic within a single line of code.
+
+2. Readability Challenges with Complex Logic:
+   When tackling intricate logic, the lambda function's single-line restriction may hinder readability. Crafting comprehensive and clear expressions becomes challenging, potentially leading to code that is difficult for others to understand.
+
+3. Testing and Debugging Complexity:
+   Due to the confined nature of lambda functions to a single line, testing and debugging become more challenging. Identifying and rectifying issues in the code may prove cumbersome, as the limited space for expression may hinder effective troubleshooting.
+
+```python
+def y_compare_x(x, y):
+    if x < y:
+        return "greater"
+    if x == y:
+        return "equal"
+    if x > y:
+        return "smaller"
+
+lambda x, y: "greater" if x < y else "equal" if x == y else "smaller" if x > y
 ```
